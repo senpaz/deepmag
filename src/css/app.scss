@@ -1,0 +1,90 @@
+// app global css in SCSS form
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-montserrat {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.text-roboto {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1756px;
+  display: flex;
+  margin: 0 auto;
+
+  @media (max-width: 1760px) {
+    width: 1430px;
+  }
+
+  @media (max-width: 1440px) {
+    width: 1004px;
+  }
+
+  @media (max-width: 1023px) {
+    width: 690px;
+  }
+
+  @media (max-width: 767px) {
+    width: 300px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
