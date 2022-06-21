@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkdeepmag"]=self["webpackChunkdeepmag"]||[]).push([[804],{3804:(e,n,a)=>{a.r(n),a.d(n,{default:()=>d});var u=a(3673);function r(e,n,a,r,t,s){return(0,u.wg)(),(0,u.iD)("h2",null,"О нас")}const t={name:"AboutPage"};var s=a(4260);const c=(0,s.Z)(t,[["render",r]]),d=c}}]);
